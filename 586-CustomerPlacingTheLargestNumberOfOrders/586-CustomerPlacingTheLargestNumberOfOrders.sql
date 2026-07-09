@@ -1,0 +1,7 @@
+-- Last updated: 7/9/2026, 3:10:04 PM
+# Write your MySQL query statement below
+SELECT CUSTOMER_NUMBER
+FROM ORDERS
+GROUP BY CUSTOMER_NUMBER
+ORDER BY COUNT(*) DESC
+LIMIT 1;
